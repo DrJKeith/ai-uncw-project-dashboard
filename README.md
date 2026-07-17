@@ -74,14 +74,13 @@ The import command never infers that an omitted item was completed, canceled, or
 
 ## GitHub Pages deployment
 
-The workflow at `.github/workflows/deploy-pages.yml` runs on every push to `main` and can also be started manually from the Actions tab. It validates public data, runs tests, builds with Vite, uploads `dist/`, and deploys through the protected `github-pages` environment.
+The workflow at `.github/workflows/deploy-pages.yml` runs on every push to `main` and can also be started manually from the Actions tab. It enables Pages when necessary, validates public data, runs tests, builds with Vite, uploads `dist/`, and deploys through the protected `github-pages` environment.
 
 Repository setup:
 
 1. The repository must be public.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, choose **GitHub Actions** as the source.
-4. Push an approved commit to `main` or run the workflow manually.
+2. Push an approved commit to `main` or run the workflow manually. The workflow enables Pages and selects GitHub Actions as the publishing source.
+3. If automatic enablement is blocked by repository policy, open **Settings → Pages** and choose **GitHub Actions** under **Build and deployment**.
 
 ## Optional custom domain
 
