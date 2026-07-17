@@ -1,0 +1,302 @@
+{
+  "schemaVersion": "1.0.0",
+  "snapshotId": "snapshot-2026-07-17-001",
+  "metadata": {
+    "title": "AI@UNCW Project Dashboard",
+    "asOf": "2026-07-17",
+    "reportingPeriod": "Spring–Summer 2026 through July 17, 2026",
+    "sourceBasis": "Project-file-only",
+    "lastReviewed": "2026-07-17",
+    "identity": "The AI Hub Orchestrates and GAABS Supports AI Builders.",
+    "subidentity": "GAABS is the advanced tool-building arm within The AI Hub.",
+    "publicNotice": "This public dashboard contains approved summary information only. Project-file-only information is not live-verified."
+  },
+  "executiveSummary": "The AI Hub and GAABS have moved from initial authorization into foundation-building and governed execution. Current work strengthens governance, shared consultation infrastructure, staff and faculty capability, responsible guidance, and campus engagement.",
+  "priorities": [
+    "Finish and test the Summer AI Institute hands-on workshop",
+    "Advance the AI advisory-framework memo through the appropriate review path",
+    "Confirm the Digital Consultation Lab schedule and access workflow",
+    "Complete the AI@UNCW and ITS guidance feedback cycle",
+    "Deliver the August 5 Advancement follow-up"
+  ],
+  "accomplishments": [
+    {
+      "id": "acc-2026-07-001",
+      "title": "Shared consultation model established",
+      "description": "A Library-facilitated model was established for the Digital Consultation Lab.",
+      "workstream": "Infrastructure",
+      "date": "2026-07-15",
+      "period": "Spring–Summer 2026",
+      "value": "Creates a shared, institutionally grounded path for campus AI consultation.",
+      "status": "Completed",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-002",
+      "title": "Governance path clarified",
+      "description": "An appropriate senior-review path was established for the AI advisory framework.",
+      "workstream": "Governance",
+      "date": "2026-07-15",
+      "period": "Spring–Summer 2026",
+      "value": "Moves governance design forward while preserving existing authorities and approval boundaries.",
+      "status": "Completed",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-003",
+      "title": "Agent survey test completed",
+      "description": "An inventory and test submission advanced the survey workstream.",
+      "workstream": "Communications",
+      "date": "2026-07-14",
+      "period": "Spring–Summer 2026",
+      "value": "Improves the evidence base for understanding local AI-building activity.",
+      "status": "Completed",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-004",
+      "title": "Summer AI Institute materials prepared",
+      "description": "Two presentations and a hands-on workshop path were prepared; preparation is not recorded as delivery.",
+      "workstream": "Staff and Faculty Development",
+      "date": "2026-07-17",
+      "period": "Spring–Summer 2026",
+      "value": "Creates reusable capacity-building materials while preserving the preparation-versus-delivery boundary.",
+      "status": "Active",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    }
+  ],
+  "workstreams": [
+    {
+      "id": "staff-and-faculty-development",
+      "name": "Staff and Faculty Development",
+      "status": "Active",
+      "currentFocus": "Summer AI Institute delivery readiness and follow-up programming",
+      "nextMilestone": "Deliver Institute programming and the August 5 follow-up",
+      "dependencies": "Verified access, safe workshop scenario, pacing, and no-login fallback",
+      "targetTiming": "July 28–30 and August 5",
+      "recentAccomplishmentIds": ["acc-2026-07-004"],
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "student-ai-literacy",
+      "name": "Student AI Literacy",
+      "status": "Active",
+      "currentFocus": "Responsible AI framing and student-success alignment",
+      "nextMilestone": "Integrate approved guidance into student-facing capability work",
+      "dependencies": "Public review and publication route",
+      "targetTiming": "Timing not specified",
+      "recentAccomplishmentIds": [],
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "governance",
+      "name": "Governance",
+      "status": "Active",
+      "currentFocus": "Advisory framework and appropriate governance boundaries",
+      "nextMilestone": "Advance the framework through senior review",
+      "dependencies": "Appropriate senior review process",
+      "targetTiming": "After the draft is prepared",
+      "recentAccomplishmentIds": ["acc-2026-07-002"],
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "status": "Active",
+      "currentFocus": "Consultation Lab schedule, access, and drop-in workflow",
+      "nextMilestone": "Confirm the operating workflow",
+      "dependencies": "Shared ownership and facilitator availability",
+      "targetTiming": "Timing not specified",
+      "recentAccomplishmentIds": ["acc-2026-07-001"],
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "status": "Open",
+      "currentFocus": "Feasible non-randomized evaluation design",
+      "nextMilestone": "Select a design suited to available capacity and evidence",
+      "dependencies": "Scope, measures, and feasible comparison strategy",
+      "targetTiming": "Next research-design phase",
+      "recentAccomplishmentIds": [],
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "communications",
+      "name": "Communications",
+      "status": "Waiting",
+      "currentFocus": "Responsible guidance and public review boundaries",
+      "nextMilestone": "Resolve feedback and confirm the publication route",
+      "dependencies": "AI@UNCW and ITS feedback",
+      "targetTiming": "After reviewer feedback",
+      "recentAccomplishmentIds": ["acc-2026-07-003"],
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone-2026-07-001",
+      "title": "Finish and test the Summer AI Institute workshop",
+      "workstream": "Staff and Faculty Development",
+      "horizon": "Now",
+      "timing": "Before July 28–30",
+      "status": "Active",
+      "dependency": "Complete participant workflow and safe no-login fallback",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-002",
+      "title": "Prepare the AI advisory-framework memo",
+      "workstream": "Governance",
+      "horizon": "Now",
+      "timing": "After the draft is prepared",
+      "status": "Active",
+      "dependency": "Appropriate senior review path",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-003",
+      "title": "Confirm the Digital Consultation Lab workflow",
+      "workstream": "Infrastructure",
+      "horizon": "Now",
+      "timing": "Timing not specified",
+      "status": "Open",
+      "dependency": "Shared schedule, access, and facilitator workflow",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-004",
+      "title": "Complete the guidance feedback cycle",
+      "workstream": "Communications",
+      "horizon": "Now",
+      "timing": "When feedback arrives",
+      "status": "Waiting",
+      "dependency": "AI@UNCW and ITS feedback",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-005",
+      "title": "Deliver Summer AI Institute programming",
+      "workstream": "Staff and Faculty Development",
+      "horizon": "Next",
+      "timing": "July 28–30",
+      "status": "Scheduled",
+      "dependency": "Workshop readiness and participant access",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-006",
+      "title": "Deliver the Advancement follow-up",
+      "workstream": "Staff and Faculty Development",
+      "horizon": "Next",
+      "timing": "August 5",
+      "status": "Scheduled",
+      "dependency": "Protected delivery capacity",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-007",
+      "title": "Define a feasible evaluation design",
+      "workstream": "Research",
+      "horizon": "Next",
+      "timing": "Next research-design phase",
+      "status": "Open",
+      "dependency": "Scope and comparison strategy",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-008",
+      "title": "Consider a future Advancement board presentation",
+      "workstream": "Staff and Faculty Development",
+      "horizon": "Later",
+      "timing": "No approved date",
+      "status": "Proposed",
+      "dependency": "Audience, timing, format, and outcome must be confirmed",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk-2026-07-001",
+      "severity": "Critical",
+      "statement": "Draft materials could be mistaken for approved policy or broad service availability.",
+      "workstream": "Governance",
+      "mitigation": "Keep draft and review labels visible and publish only through an authorized route.",
+      "attention": true,
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-002",
+      "severity": "High",
+      "statement": "AI advisory work could be misunderstood as replacing established shared governance.",
+      "workstream": "Governance",
+      "mitigation": "State advisory limits explicitly and recognize existing authorities.",
+      "attention": true,
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-003",
+      "severity": "High",
+      "statement": "Workshop access, network, pacing, or login issues could disrupt delivery.",
+      "workstream": "Staff and Faculty Development",
+      "mitigation": "Test the complete participant path and maintain a safe no-login fallback.",
+      "attention": true,
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    }
+  ],
+  "decisions": [],
+  "reports": [
+    {
+      "id": "report-2026-07-001",
+      "period": "Spring–Summer 2026 through July 17",
+      "date": "2026-07-17",
+      "sourceBasis": "Project-file-only",
+      "summary": "Foundation-building and governed execution across governance, consultation infrastructure, capability building, responsible guidance, and campus engagement.",
+      "publicReportPath": "content/reports/2026-07-17-public-progress-report.md",
+      "changes": [
+        "Added four public-safe accomplishment records",
+        "Established current status for all six workstreams",
+        "Added eight Now, Next, and Later milestones",
+        "Added three public-facing material risks; internal deliberations and support requests were excluded",
+        "Preserved preparation-versus-delivery and proposed-versus-approved boundaries"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-07-17",
+        "scope": "Public-safe dashboard summary; named activity-ledger detail excluded"
+      }
+    }
+  ]
+}

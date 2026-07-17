@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/dashboard.schema.json",
+  "title": "AI@UNCW Project Dashboard snapshot",
+  "type": "object",
+  "required": ["schemaVersion", "snapshotId", "metadata", "executiveSummary", "priorities", "accomplishments", "workstreams", "milestones", "risks", "decisions", "reports"],
+  "properties": {
+    "schemaVersion": { "type": "string", "const": "1.0.0" },
+    "snapshotId": { "type": "string", "pattern": "^snapshot-" },
+    "metadata": {
+      "type": "object",
+      "required": ["title", "asOf", "reportingPeriod", "sourceBasis", "lastReviewed", "identity", "subidentity", "publicNotice"],
+      "additionalProperties": false
+    },
+    "priorities": { "type": "array", "minItems": 1, "maxItems": 6, "items": { "type": "string" } },
+    "accomplishments": { "type": "array" },
+    "workstreams": { "type": "array", "minItems": 6, "maxItems": 6 },
+    "milestones": { "type": "array" },
+    "risks": { "type": "array" },
+    "decisions": { "type": "array" },
+    "reports": { "type": "array", "minItems": 1 }
+  }
+}

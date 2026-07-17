@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+coverage/
+staging/imports/*.approved-data.json
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+design/*
+!design/implementation/
+!design/implementation/*.png
