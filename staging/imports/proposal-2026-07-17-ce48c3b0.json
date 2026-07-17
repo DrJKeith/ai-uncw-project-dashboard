@@ -1,0 +1,38 @@
+{
+  "proposalId": "proposal-2026-07-17-ce48c3b0",
+  "status": "applied",
+  "createdAt": "2026-07-17T16:39:24.743Z",
+  "source": {
+    "path": "content/reports/2026-07-17-public-progress-update-1.md",
+    "sha256": "ce48c3b0eeed669d2e4da859572fbc98560bbda80117c05c1a012cc5ed753a89",
+    "reportingPeriod": "Spring–Summer 2026 through July 17, 2026",
+    "reportDate": "2026-07-17",
+    "sourceBasis": "Project-file-only",
+    "headings": [
+      "Executive summary",
+      "Approved public scope",
+      "Additional accomplishments",
+      "Current priorities",
+      "Public risks"
+    ]
+  },
+  "baseSnapshotId": "snapshot-2026-07-17-001",
+  "sensitiveFindings": [],
+  "proposedChanges": {
+    "note": "The importer does not infer production facts. Prepare the reviewed snapshot in the adjacent .approved-data.json file.",
+    "sourceSections": [
+      "Executive summary",
+      "Approved public scope",
+      "Additional accomplishments",
+      "Current priorities",
+      "Public risks"
+    ],
+    "omittedCurrentRecords": "No change proposed"
+  },
+  "approval": {
+    "approvedBy": "Julian Keith",
+    "approvedAt": "2026-07-17T16:40:08.476Z",
+    "reviewedDataSha256": "93de94ef62be46cf8d215c61063cb405804961ecc86c1b9178332ba7ea9df367"
+  },
+  "appliedAt": "2026-07-17T16:40:08.616Z"
+}
