@@ -1,0 +1,48 @@
+{
+  "proposalId": "proposal-2026-07-17-b99b4f64",
+  "status": "applied",
+  "createdAt": "2026-07-17T18:26:01.231Z",
+  "source": {
+    "path": "content/reports/2026-07-17-public-ai-hub-gaabs-dashboard-progress-report.md",
+    "sha256": "b99b4f64e5ef3011df336814a21b279dc7d433e4170962df13fc0b162374e0fb",
+    "reportingPeriod": "Spring-Summer 2026 through July 17, 2026",
+    "reportDate": "2026-07-17",
+    "sourceBasis": "project-file-only",
+    "headings": [
+      "Executive Summary",
+      "What Changed Since the June Progress Report",
+      "Accomplishments to Date",
+      "Presentations, Training, Consultations, and Institutional Service",
+      "Current Priorities and Next Steps",
+      "Roadmap",
+      "Material Blockers, Dependencies, and Risks",
+      "Decisions or Support Needed",
+      "Status Boundaries",
+      "Public Contact"
+    ]
+  },
+  "baseSnapshotId": "snapshot-2026-07-17-002",
+  "sensitiveFindings": [],
+  "proposedChanges": {
+    "note": "The importer does not infer production facts. Prepare the reviewed snapshot in the adjacent .approved-data.json file.",
+    "sourceSections": [
+      "Executive Summary",
+      "What Changed Since the June Progress Report",
+      "Accomplishments to Date",
+      "Presentations, Training, Consultations, and Institutional Service",
+      "Current Priorities and Next Steps",
+      "Roadmap",
+      "Material Blockers, Dependencies, and Risks",
+      "Decisions or Support Needed",
+      "Status Boundaries",
+      "Public Contact"
+    ],
+    "omittedCurrentRecords": "No change proposed"
+  },
+  "approval": {
+    "approvedBy": "Julian Keith",
+    "approvedAt": "2026-07-17T18:32:39.850Z",
+    "reviewedDataSha256": "dc686621f4ebfddfe8cadb5da3f56fd6869cb80300a46b9cf9528df5c381d9ec"
+  },
+  "appliedAt": "2026-07-17T18:35:32.047Z"
+}
