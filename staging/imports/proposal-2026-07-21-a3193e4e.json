@@ -1,0 +1,54 @@
+{
+  "proposalId": "proposal-2026-07-21-a3193e4e",
+  "status": "applied",
+  "createdAt": "2026-07-21T17:03:37.922Z",
+  "source": {
+    "path": "content/reports/2026-07-21-public-dashboard-update.md",
+    "sha256": "a3193e4eb713c7cd47873416edaf0d6fcddcd9b0823f6b32bb57903239a569b6",
+    "reportingPeriod": "July 18-21, 2026",
+    "reportDate": "2026-07-21",
+    "sourceBasis": "Project-file-only",
+    "headings": [
+      "Executive Summary",
+      "What Changed",
+      "Current Priorities",
+      "Workstream Updates",
+      "Milestones",
+      "Risks, Blockers, and Dependencies",
+      "Decisions or Support Needed",
+      "Status Boundaries",
+      "Public Contact"
+    ]
+  },
+  "baseSnapshotId": "snapshot-2026-07-17-003",
+  "sensitiveFindings": [],
+  "proposedChanges": {
+    "summary": "Prepare snapshot-2026-07-21-004 from the July 21 public update.",
+    "newAccomplishments": [],
+    "updatedRecords": [
+      "Dashboard metadata and executive summary",
+      "Current priority ordering",
+      "Staff and Faculty Development source reference",
+      "Governance current focus, next milestone, dependencies, and timing",
+      "Summer AI Institute workshop milestone wording and source reference",
+      "Late-July capacity risk wording and source reference"
+    ],
+    "newMilestones": [
+      "milestone-2026-07-010"
+    ],
+    "newRisks": [
+      "risk-2026-07-007"
+    ],
+    "statusChanges": [],
+    "sensitiveExclusions": [
+      "Candidate-review and other personnel-adjacent details"
+    ],
+    "omittedCurrentRecords": "No change proposed"
+  },
+  "approval": {
+    "approvedBy": "Julian Keith",
+    "approvedAt": "2026-07-21T17:05:58.882Z",
+    "reviewedDataSha256": "629ffba1d41e7a1a399ede55e77fa0c673761f192d81be0c77aaba32d9f18415"
+  },
+  "appliedAt": "2026-07-21T17:06:51.743Z"
+}
