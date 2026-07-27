@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "snapshotId": "snapshot-2026-07-27-006",
+  "snapshotId": "snapshot-2026-07-27-005",
   "metadata": {
     "title": "AI@UNCW Project Dashboard",
     "asOf": "2026-07-27",
@@ -11,13 +11,12 @@
     "subidentity": "GAABS is the advanced tool-building arm within The AI Hub.",
     "publicNotice": "This public dashboard contains approved summary information only. Project-file-only information is not live-verified."
   },
-  "executiveSummary": "The AI Hub and GAABS remain in a foundation-building and delivery-readiness phase. Alongside website-launch and ChatGPT EDU use-support work, the Hub is planning an explicitly experimental graduate-student consulting pilot. The pilot will emphasize supervised practical-build experience, progressive learning, and knowledge transfer; it is not a production service or a claim of implementation readiness.",
+  "executiveSummary": "The AI Hub and GAABS remain in a foundation-building and delivery-readiness phase. The AI Hub website is scheduled to launch July 27. The Hub is also scoping concise, responsible ChatGPT EDU use guidance and will determine whether an educational agent adds value beyond that article; this is practical adoption support, not a measured return-on-investment or effectiveness claim.",
   "priorities": [
     "Verify the public AI Hub website launch and capture any material issue or correction owner",
     "Complete and test the Summer AI Institute hands-on workshop",
-    "Confirm access, funding, operating controls, and student readiness for the experimental consulting pilot",
-    "Scope the first internal form-guidance pilot with validation and maintenance controls",
     "Scope concise, role-aware ChatGPT EDU use guidance",
+    "Determine whether an educational agent adds value beyond the article before committing to build it",
     "Maintain the established governance and guidance-review boundaries"
   ],
   "accomplishments": [
@@ -138,12 +137,12 @@
       "id": "student-ai-literacy",
       "name": "Student AI Literacy",
       "status": "Active",
-      "currentFocus": "Responsible AI framing, student-success alignment, and supervised practical-build learning",
-      "nextMilestone": "Establish graduate-student pilot orientation, training, and peer-learning cadence",
-      "dependencies": "Student appointments, appropriate tool access, supervision, and project scope",
-      "targetTiming": "Before pilot kickoff",
+      "currentFocus": "Responsible AI framing and student-success alignment",
+      "nextMilestone": "Integrate approved guidance into student-facing capability work",
+      "dependencies": "Public review and publication route",
+      "targetTiming": "Timing not specified",
       "recentAccomplishmentIds": [],
-      "reportId": "report-2026-07-006",
+      "reportId": "report-2026-07-001",
       "sourceStatus": "Project-file-only"
     },
     {
@@ -164,15 +163,15 @@
       "id": "infrastructure",
       "name": "Infrastructure",
       "status": "Active",
-      "currentFocus": "Consultation Lab workflow and experimental graduate-student consulting-pilot readiness",
-      "nextMilestone": "Confirm tool access, funding, controls, and the first pilot's validation and maintenance plan",
-      "dependencies": "Appropriate platform access, centrally managed funding, student-account readiness, authorized sources, validation criteria, and continuity ownership",
-      "targetTiming": "Before pilot kickoff",
+      "currentFocus": "Consultation Lab schedule, access, and drop-in workflow",
+      "nextMilestone": "Confirm the operating workflow",
+      "dependencies": "Shared ownership and facilitator availability",
+      "targetTiming": "Timing not specified",
       "recentAccomplishmentIds": [
         "acc-2026-07-001",
         "acc-2026-07-007"
       ],
-      "reportId": "report-2026-07-006",
+      "reportId": "report-2026-07-003",
       "sourceStatus": "Project-file-only"
     },
     {
@@ -348,30 +347,6 @@
       "lastUpdated": "2026-07-27",
       "reportId": "report-2026-07-005",
       "sourceStatus": "Project-file-only"
-    },
-    {
-      "id": "milestone-2026-07-013",
-      "title": "Confirm readiness for the experimental graduate-student consulting pilot",
-      "workstream": "Infrastructure",
-      "horizon": "Now",
-      "timing": "Before pilot kickoff",
-      "status": "Proposed",
-      "dependency": "Student appointments, appropriate tool access, centrally managed funding, operating controls, and training cadence",
-      "lastUpdated": "2026-07-27",
-      "reportId": "report-2026-07-006",
-      "sourceStatus": "Project-file-only"
-    },
-    {
-      "id": "milestone-2026-07-014",
-      "title": "Scope the initial internal form-guidance pilot",
-      "workstream": "Infrastructure",
-      "horizon": "Next",
-      "timing": "After pilot-readiness prerequisites are confirmed",
-      "status": "Proposed",
-      "dependency": "Authorized source material, validation criteria, maintainable scope, and a continuity owner",
-      "lastUpdated": "2026-07-27",
-      "reportId": "report-2026-07-006",
-      "sourceStatus": "Project-file-only"
     }
   ],
   "risks": [
@@ -472,39 +447,6 @@
       "attention": false,
       "lastUpdated": "2026-07-27",
       "reportId": "report-2026-07-005",
-      "sourceStatus": "Project-file-only"
-    },
-    {
-      "id": "risk-2026-07-010",
-      "severity": "High",
-      "statement": "Tool access, centrally managed funding, or student-account readiness could delay the experimental consulting pilot.",
-      "workstream": "Infrastructure",
-      "mitigation": "Confirm all prerequisites before student work begins and retain clear operating controls.",
-      "attention": true,
-      "lastUpdated": "2026-07-27",
-      "reportId": "report-2026-07-006",
-      "sourceStatus": "Project-file-only"
-    },
-    {
-      "id": "risk-2026-07-011",
-      "severity": "High",
-      "statement": "Student turnover could leave an early prototype without a maintainer.",
-      "workstream": "Student AI Literacy",
-      "mitigation": "Use peer learning, document handoff responsibilities, and name continuity ownership before implementation.",
-      "attention": true,
-      "lastUpdated": "2026-07-27",
-      "reportId": "report-2026-07-006",
-      "sourceStatus": "Project-file-only"
-    },
-    {
-      "id": "risk-2026-07-012",
-      "severity": "Medium",
-      "statement": "The first pilot could become too technically ambitious for its client need or cohort readiness.",
-      "workstream": "Infrastructure",
-      "mitigation": "Favor maintainable solutions and confirm project scope, source ownership, and validation criteria before implementation.",
-      "attention": false,
-      "lastUpdated": "2026-07-27",
-      "reportId": "report-2026-07-006",
       "sourceStatus": "Project-file-only"
     }
   ],
@@ -610,26 +552,6 @@
         "approvedBy": "Julian Keith",
         "approvedOn": "2026-07-27",
         "scope": "Public-safe update covering scheduled website launch verification and scoped adoption support; no launch-completion, agent-build, ROI, or effectiveness claim implied"
-      }
-    },
-    {
-      "id": "report-2026-07-006",
-      "period": "July 27, 2026 — public student consulting pilot update",
-      "date": "2026-07-27",
-      "sourceBasis": "Project-file-only",
-      "summary": "Public update on a planned, experimental graduate-student consulting pilot with access, funding, scope, validation, and continuity prerequisites.",
-      "publicReportPath": "content/reports/2026-07-27-public-student-consulting-pilot-update.md",
-      "changes": [
-        "Added a planned graduate-student consulting pilot without claiming a production service",
-        "Added readiness and initial-scope milestones subject to access, funding, controls, validation, and continuity conditions",
-        "Updated infrastructure and student AI literacy workstreams for supervised practical-build learning",
-        "Added public risks for readiness, turnover, and scope mismatch",
-        "Excluded names, appointment details, budget specifics, internal access discussions, and the specific internal request"
-      ],
-      "approval": {
-        "approvedBy": "Julian Keith",
-        "approvedOn": "2026-07-27",
-        "scope": "Public-safe student consulting-pilot update; no production-service, deployment, validated-accuracy, or implementation-readiness claim implied"
       }
     }
   ]
