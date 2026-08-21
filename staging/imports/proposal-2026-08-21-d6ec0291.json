@@ -1,0 +1,48 @@
+{
+  "proposalId": "proposal-2026-08-21-d6ec0291",
+  "status": "applied",
+  "createdAt": "2026-08-21T14:31:05.322Z",
+  "source": {
+    "path": "content/reports/2026-08-21-public-dashboard-update.md",
+    "sha256": "d6ec029132a5b002357a2cfc9080dbf5af0f8383aee43c669d53556ad1a99588",
+    "reportingPeriod": "August 12-21, 2026",
+    "reportDate": "2026-08-21",
+    "sourceBasis": "Project-file-only",
+    "headings": [
+      "Executive Summary",
+      "Confirmed Developments",
+      "Current Priorities",
+      "Workstream Updates",
+      "Milestones",
+      "Risks, Blockers, and Dependencies",
+      "Decisions or Support Needed",
+      "Items Needing Verification",
+      "Status Boundaries",
+      "Public Contact"
+    ]
+  },
+  "baseSnapshotId": "snapshot-2026-08-11-011",
+  "sensitiveFindings": [],
+  "proposedChanges": {
+    "note": "The importer does not infer production facts. Prepare the reviewed snapshot in the adjacent .approved-data.json file.",
+    "sourceSections": [
+      "Executive Summary",
+      "Confirmed Developments",
+      "Current Priorities",
+      "Workstream Updates",
+      "Milestones",
+      "Risks, Blockers, and Dependencies",
+      "Decisions or Support Needed",
+      "Items Needing Verification",
+      "Status Boundaries",
+      "Public Contact"
+    ],
+    "omittedCurrentRecords": "No change proposed"
+  },
+  "approval": {
+    "approvedBy": "Julian Keith",
+    "approvedAt": "2026-08-21T14:34:05.803Z",
+    "reviewedDataSha256": "c4cdcbe2e07f385490a78179e998d42928b40466f5cdd239309a03ce84b9b638"
+  },
+  "appliedAt": "2026-08-21T14:34:05.968Z"
+}
