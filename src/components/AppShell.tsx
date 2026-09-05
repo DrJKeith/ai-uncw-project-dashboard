@@ -44,13 +44,27 @@ export function ContextLine() {
 export function AppShell({ route, children }: { route: string; children: ReactNode }) {
   const [menuOpen, setMenuOpen] = useState(false)
   const active = route.split('/')[0]
+  const activeLabel = navigation.find(([slug]) => slug === active)?.[1] ?? (active === 'about' ? 'About this record' : 'Overview')
 
   useEffect(() => setMenuOpen(false), [route])
 
   return (
     <div className="site-shell">
-      <header className="site-header">
-        <a className="identity-lockup" href="#/overview">AI Hub / GAABS</a>
+      <a className="skip-link" href="#main-content">Skip to content</a>
+      <aside className="public-sidebar">
+        <a className="public-brand" href="#/overview"><span>AI Hub</span><small>GAABS · UNCW</small></a>
+        <p className="public-label"><span aria-hidden="true" /> Approved public record</p>
+        <nav className="public-nav" aria-label="Primary">
+          {navigation.map(([slug, label]) => (
+            <a key={slug} href={`#/${slug}`} aria-current={active === slug ? 'page' : undefined}>{label}</a>
+          ))}
+          <a href="#/about" aria-current={active === 'about' ? 'page' : undefined}>About this record</a>
+        </nav>
+        <p className="public-sidebar-note">The AI Hub coordinates.<br />GAABS builds.</p>
+      </aside>
+      <div className="public-main-shell">
+        <header className="public-topbar">
+          <p>Public dashboard <span>/</span> <strong>{activeLabel}</strong></p>
         <button
           className="menu-button"
           type="button"
@@ -60,18 +74,19 @@ export function AppShell({ route, children }: { route: string; children: ReactNo
         >
           Menu
         </button>
-        <nav id="primary-navigation" className={menuOpen ? 'primary-nav is-open' : 'primary-nav'} aria-label="Primary">
+        <nav id="primary-navigation" className={menuOpen ? 'mobile-nav is-open' : 'mobile-nav'} aria-label="Mobile primary">
           {navigation.map(([slug, label]) => (
             <a key={slug} href={`#/${slug}`} aria-current={active === slug ? 'page' : undefined}>{label}</a>
           ))}
-          <a className="about-link" href="#/about" aria-current={active === 'about' ? 'page' : undefined}>About this record</a>
+          <a href="#/about" aria-current={active === 'about' ? 'page' : undefined}>About this record</a>
         </nav>
-      </header>
-      <main id="main-content" tabIndex={-1}>{children}</main>
-      <footer className="site-footer">
-        <p>Questions or comments? Contact <a href="mailto:ai@uncw.edu">AI@UNCW</a>.</p>
-        <p>Approved public summary · Updated {formatDate(data.metadata.asOf)}</p>
-      </footer>
+        </header>
+        <main id="main-content" tabIndex={-1}>{children}</main>
+        <footer className="site-footer">
+          <p>Questions or comments? Contact <a href="mailto:ai@uncw.edu">AI@UNCW</a>.</p>
+          <p>Approved public summary · Updated {formatDate(data.metadata.asOf)}</p>
+        </footer>
+      </div>
     </div>
   )
 }

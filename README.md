@@ -6,7 +6,7 @@ A standalone, public-facing progress dashboard for The AI Hub and GAABS at UNC W
 
 ## Public and technical boundaries
 
-- The dashboard is independent. It does not read, link to, watch, or synchronize with the GAABS Chief of Staff repository.
+- The dashboard is independent. It does not read, link to, watch, or synchronize with the GAABS Chief of Staff repository. A user may explicitly send one reviewed public report from the private dashboard into this repository's review queue; nothing is transferred automatically.
 - Content changes only after Julian manually supplies a progress report, reviews the proposed public changes, and explicitly approves application.
 - A push to `main` automatically validates, builds, and deploys the already-approved repository state.
 - No API, database, authentication provider, analytics, cookies, trackers, scheduled jobs, webhooks, file watchers, or external data source is used.

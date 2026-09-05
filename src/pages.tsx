@@ -20,6 +20,12 @@ export function OverviewPage({ data }: { data: DashboardData }) {
     <>
       <section className="overview-hero page-width">
         <PageHeader title={data.metadata.title} />
+        <div className="public-stats" aria-label="Approved dashboard record at a glance">
+          <a href="#/accomplishments"><span>Approved accomplishments</span><strong>{data.accomplishments.length}</strong><small>Cumulative record</small></a>
+          <a href="#/workstreams"><span>Workstreams</span><strong>{data.workstreams.length}</strong><small>Coordinated areas</small></a>
+          <a href="#/roadmap"><span>Current milestones</span><strong>{data.milestones.filter((item) => item.horizon === 'Now').length}</strong><small>Approved roadmap</small></a>
+          <a href="#/reports"><span>Public reports</span><strong>{data.reports.length}</strong><small>Immutable archive</small></a>
+        </div>
         <div className="overview-grid">
           <div>
             <h2>Executive summary</h2>
