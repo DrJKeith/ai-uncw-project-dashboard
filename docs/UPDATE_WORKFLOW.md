@@ -8,7 +8,7 @@
 
 The workflow prevents a newly added report, an ambiguous phrase, or an importer suggestion from changing the supervisor dashboard without Julian's explicit review and approval.
 
-Nothing watches the reports folder. Nothing runs on a schedule. Nothing connects to email, calendars, Teams, SharePoint, ChatGPT, Codex tasks, another repository, or the internet.
+Nothing watches the reports folder. Nothing runs on a schedule. Nothing connects to email, calendars, Teams, SharePoint, ChatGPT, Codex tasks, another repository, or the internet. A user may manually send one reviewed report from the private AI Hub Operations dashboard into `content/reports/`; that explicit action creates the same `needs-review` proposal described below and does not approve, apply, commit, deploy, or publish anything.
 
 ## Before adding a report
 
