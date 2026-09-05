@@ -1,0 +1,40 @@
+{
+  "proposalId": "proposal-2026-09-05-47978ae9",
+  "status": "applied",
+  "createdAt": "2026-09-05T19:01:19.038Z",
+  "source": {
+    "path": "content/reports/2026-09-05-public-dashboard-update.md",
+    "sha256": "47978ae9aa8c5270d404301621236bfd4c591ea4e1d0ccbabb85c4f28ff96000",
+    "reportingPeriod": "September 5, 2026",
+    "reportDate": "2026-09-05",
+    "sourceBasis": "Project-file-only",
+    "headings": [
+      "Executive Summary",
+      "Accomplishments",
+      "Current Priorities",
+      "Items Needing Verification",
+      "Status Boundaries",
+      "Public Contact"
+    ]
+  },
+  "baseSnapshotId": "snapshot-2026-09-04-013",
+  "sensitiveFindings": [],
+  "proposedChanges": {
+    "note": "The importer does not infer production facts. Prepare the reviewed snapshot in the adjacent .approved-data.json file.",
+    "sourceSections": [
+      "Executive Summary",
+      "Accomplishments",
+      "Current Priorities",
+      "Items Needing Verification",
+      "Status Boundaries",
+      "Public Contact"
+    ],
+    "omittedCurrentRecords": "No change proposed"
+  },
+  "approval": {
+    "approvedBy": "Julian Keith",
+    "approvedAt": "2026-09-05T19:10:34.091Z",
+    "reviewedDataSha256": "59bb743918f82737ba2089a44d006c6c4214a1c2b4bd60cdd4b4c819e9992bed"
+  },
+  "appliedAt": "2026-09-05T19:10:34.203Z"
+}
