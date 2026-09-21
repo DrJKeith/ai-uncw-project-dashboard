@@ -1,0 +1,38 @@
+{
+  "proposalId": "proposal-2026-09-21-5d10e4b6",
+  "status": "applied",
+  "createdAt": "2026-09-21T19:26:26.582Z",
+  "source": {
+    "path": "content/reports/2026-09-21-public-update-726eec4c-2b83-4389-821e-271399e7d606.md",
+    "sha256": "5d10e4b669e9d03e0c3b1cc6f84a6cdccfdd93c8c2df95b06b5395afe7e66a0f",
+    "reportingPeriod": "Cumulative through 2026-09-21 — select reporting period",
+    "reportDate": "2026-09-21",
+    "sourceBasis": "Project-file-only",
+    "headings": [
+      "Current priorities and follow-through",
+      "Decisions and questions for review",
+      "Active project risks and support needs",
+      "Pending proposals — not approved work",
+      "Granular activity record — all recorded periods",
+      "Purpose",
+      "Scheduled Or Planned Activity",
+      "Activities captured in AI Hub Operations",
+      "Prepared materials — drafts for review",
+      "Dashboard changes since automatic capture began",
+      "Recorded evidence checks",
+      "Preparation and sharing"
+    ]
+  },
+  "baseSnapshotId": "snapshot-2026-09-05-014",
+  "sensitiveFindings": [],
+  "proposedChanges": {
+    "note": "Applied from the reviewed AI Hub Operations public-report flow.",
+    "omittedCurrentRecords": "No change proposed"
+  },
+  "approval": {
+    "approvedBy": "Julian Keith",
+    "approvedAt": "2026-09-21T19:26:26.582Z",
+    "reviewedDataSha256": "24e070f6a53c5a1b2a7cd5aa80b987359b67ccd5c322bcbee73e23802de884e1"
+  },
+  "appliedAt": "2026-09-21T19:26:26.582Z"
+}
