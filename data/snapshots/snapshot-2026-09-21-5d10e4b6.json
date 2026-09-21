@@ -1,0 +1,1254 @@
+{
+  "schemaVersion": "1.0.0",
+  "snapshotId": "snapshot-2026-09-21-5d10e4b6",
+  "metadata": {
+    "title": "AI@UNCW Project Dashboard",
+    "asOf": "2026-09-21",
+    "reportingPeriod": "Cumulative through 2026-09-21 — select reporting period",
+    "sourceBasis": "Project-file-only",
+    "lastReviewed": "2026-09-21",
+    "identity": "The AI Hub Orchestrates and GAABS Supports AI Builders.",
+    "subidentity": "GAABS is the advanced tool-building arm within The AI Hub.",
+    "publicNotice": "This public dashboard contains approved summary information only. Project-file-only information is not live-verified."
+  },
+  "executiveSummary": "AI Hub and GAABS continued bounded planning and prototype work across student learning, infrastructure, communications, and research. This project-file-only update records continued organization of the experimental DS&AI graduate-student pilot, STEM and AI learning-community workshop planning, faculty document-management agent prototype progress, and exploratory Academic Alliance and Grants Office discussions. It does not establish placements, paid roles, tool access, budget, client work, service launch, a scheduled event, partnership, program approval, validation, approval, deployment, adoption, outcomes, data authorization, resource commitment, or deliverable. This September 5 project-file-only update also records Julian's reported completion of a guide for educational ChatGPT account users. It does not establish distribution, adoption, endorsement, use, or outcomes.",
+  "priorities": [
+    "Verify the GAABS SharePoint and semester booking experience end to end before promotion",
+    "Refresh AI Hub SharePoint content",
+    "Assess fit for the UNC System AI literacy course; this is not an adoption, curriculum, or ownership decision",
+    "Review the revised ITS AI Standards draft when received; a draft review is not institutional approval or publication",
+    "Keep Cowork exploration bounded to a non-sensitive pilot until data-handling, support, and sharing conditions are confirmed",
+    "Continue bounded experimental-pilot organization, workshop planning, prototype work, and exploratory discussions without inferring commitments or outcomes"
+  ],
+  "accomplishments": [
+    {
+      "id": "acc-2026-07-001",
+      "title": "Shared consultation model established",
+      "description": "A Library-facilitated model was established for the Digital Consultation Lab.",
+      "workstream": "Infrastructure",
+      "date": "2026-07-15",
+      "period": "Spring–Summer 2026",
+      "value": "Creates a shared, institutionally grounded path for campus AI consultation.",
+      "status": "Completed",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-002",
+      "title": "Governance path clarified",
+      "description": "An appropriate senior-review path was established for the AI advisory framework.",
+      "workstream": "Governance",
+      "date": "2026-07-15",
+      "period": "Spring–Summer 2026",
+      "value": "Moves governance design forward while preserving existing authorities and approval boundaries.",
+      "status": "Completed",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-003",
+      "title": "Agent survey test completed",
+      "description": "An inventory and test submission advanced the survey workstream.",
+      "workstream": "Communications",
+      "date": "2026-07-14",
+      "period": "Spring–Summer 2026",
+      "value": "Improves the evidence base for understanding local AI-building activity.",
+      "status": "Completed",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-004",
+      "title": "Summer AI Institute programming delivered",
+      "description": "Summer AI Institute programming was delivered successfully as a CTE and CSE initiative; attendance, participant outcomes, and ongoing support are not established.",
+      "workstream": "Staff and Faculty Development",
+      "date": "2026-07-17",
+      "period": "Spring–Summer 2026",
+      "value": "Records successful delivery while preserving initiative ownership and the boundary between delivery and participant outcomes.",
+      "status": "Completed",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-009",
+      "title": "AI Hub website launched",
+      "description": "The AI Hub website is live; any R&I-link issue remains a separate post-launch distribution follow-up.",
+      "workstream": "Communications",
+      "date": "2026-07-31",
+      "period": "July 2026",
+      "value": "Provides a public-facing entry point while keeping distribution follow-up separate from website-launch status.",
+      "status": "Completed",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-08-001",
+      "title": "University Advancement hands-on AI build workshop delivered",
+      "description": "The University Advancement hands-on AI build workshop was delivered August 5 and reported very successful; participant counts, tool-performance claims, participant outcomes, and continuing-service commitments are not established.",
+      "workstream": "Staff and Faculty Development",
+      "date": "2026-08-05",
+      "period": "August 2026",
+      "value": "Records practical staff programming while keeping reported success separate from participant outcomes, tool performance, effectiveness, and future service commitments.",
+      "status": "Completed",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-08-002",
+      "title": "AI Currents discussion community established",
+      "description": "As of August 11, AI Currents was established as a Viva Engage discussion community for the UNCW ecosystem and was reported off to a strong start; membership, engagement metrics, outcomes, moderation arrangements, and support commitments are not established.",
+      "workstream": "Communications",
+      "date": "2026-08-11",
+      "period": "Confirmed by August 11, 2026",
+      "value": "Creates a discussion space while keeping qualitative reported status separate from participation, engagement, outcome, and service claims.",
+      "status": "Completed",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-005",
+      "title": "University Advancement AI learning session delivered",
+      "description": "Delivered a hands-on University Advancement AI learning session.",
+      "workstream": "Staff and Faculty Development",
+      "date": "2026-06-08",
+      "period": "Spring–Summer 2026",
+      "value": "Built staff capability and reinforced a hands-on approach to AI learning.",
+      "status": "Completed",
+      "reportId": "report-2026-07-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-006",
+      "title": "Responsible-use and builder-showcase materials developed",
+      "description": "Developed responsible-use guidance and builder-showcase materials with review controls.",
+      "workstream": "Communications",
+      "date": "2026-06-17",
+      "period": "Spring–Summer 2026",
+      "value": "Creates a review-ready foundation for responsible public engagement.",
+      "status": "Completed",
+      "reportId": "report-2026-07-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-007",
+      "title": "Team project-monitoring dashboard launched",
+      "description": "A shared project-monitoring dashboard was launched for the team.",
+      "workstream": "Infrastructure",
+      "date": "2026-07-17",
+      "period": "Spring–Summer 2026",
+      "value": "Provides a shared view of priorities, risks, decisions, and dependencies.",
+      "status": "Completed",
+      "reportId": "report-2026-07-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-07-008",
+      "title": "Cross-institution exchange opportunity opened",
+      "description": "A discussion with an external university partner opened possibilities for talks, workshops, and related exchanges.",
+      "workstream": "Communications",
+      "date": "2026-07-17",
+      "period": "Spring–Summer 2026",
+      "value": "Creates a bounded path for cross-institution learning without implying a formal partnership or commitment.",
+      "status": "Active",
+      "reportId": "report-2026-07-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-08-003",
+      "title": "GAABS SharePoint and semester booking surfaces created",
+      "description": "GAABS SharePoint and semester booking surfaces were created, pending end-to-end verification of scope, routing, privacy, permissions, maintenance ownership, and user experience.",
+      "workstream": "Infrastructure",
+      "date": "2026-08-21",
+      "period": "Confirmed by August 21, 2026",
+      "value": "Creates a practical access surface while preserving the distinction between creation and verified, supportable service availability.",
+      "status": "Completed",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-08-004",
+      "title": "Towson tool-sharing exchange completed",
+      "description": "A tool-sharing exchange occurred with Towson University colleagues; it is not a partnership, transfer agreement, endorsement, or continuing commitment.",
+      "workstream": "Communications",
+      "date": "2026-08-21",
+      "period": "Confirmed by August 21, 2026",
+      "value": "Supports bounded cross-institution learning without implying formal partnership or continuing obligations.",
+      "status": "Completed",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-08-005",
+      "title": "Faculty-support office hours held",
+      "description": "Faculty-support office hours were held with John Holsten; no learner outcomes, course changes, standing service, or continuing-support commitment are established.",
+      "workstream": "Staff and Faculty Development",
+      "date": "2026-08-21",
+      "period": "Confirmed by August 21, 2026",
+      "value": "Records a confirmed faculty consultation activity while preserving the boundary between activity and outcomes or standing support.",
+      "status": "Completed",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "acc-2026-09-001",
+      "title": "Educational ChatGPT account guide created",
+      "description": "Julian reported creating a guide intended to help people using educational ChatGPT accounts understand available options and use credits efficiently. Distribution, adoption, endorsement, use, and outcomes are not established.",
+      "workstream": "Communications",
+      "date": "2026-09-05",
+      "period": "September 5, 2026",
+      "value": "Records a user-reported communication resource while preserving the boundary between creation and distribution, adoption, use, or outcomes.",
+      "status": "Completed",
+      "reportId": "report-2026-09-005",
+      "sourceStatus": "Project-file-only"
+    }
+  ],
+  "workstreams": [
+    {
+      "id": "staff-and-faculty-development",
+      "name": "Staff and Faculty Development",
+      "status": "Active",
+      "currentFocus": "Faculty-support office hours were held with John Holsten; no learner outcomes, course changes, standing service, or continuing-support commitment are established.",
+      "nextMilestone": "Maintain bounded faculty support while avoiding unsupported outcome or continuing-service claims.",
+      "dependencies": "Defined scope, available capacity, and separate evidence or authorization for any outcome or continuing-support statement",
+      "targetTiming": "Ongoing",
+      "recentAccomplishmentIds": [
+        "acc-2026-08-005",
+        "acc-2026-08-001",
+        "acc-2026-07-004"
+      ],
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "student-ai-literacy",
+      "name": "Student AI Literacy",
+      "status": "Active",
+      "currentFocus": "STEM and AI learning-community workshop planning and a planned supporting introduction continued; no event is scheduled and no partnership or program approval is established.",
+      "nextMilestone": "Continue planning without representing the workshop or supporting introduction as scheduled, partnered, or approved.",
+      "dependencies": "Separate event scheduling, partnership confirmation, and program approval if any are later sought",
+      "targetTiming": "Planning",
+      "recentAccomplishmentIds": [],
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "governance",
+      "name": "Governance",
+      "status": "Active",
+      "currentFocus": "A proposed three-pillar frame—targeted administrative AI capability, student AI-skill development, and community-facing business applications—may be brought to the AI Hub Advisory Board when it convenes; it is not Board-approved strategy, curriculum, partnership, or service commitment.",
+      "nextMilestone": "Bring the proposed frame to the Advisory Board only when it convenes and through appropriate review.",
+      "dependencies": "Advisory Board convening and any separate approvals required for strategy, curriculum, partnerships, or services",
+      "targetTiming": "When the Advisory Board convenes",
+      "recentAccomplishmentIds": [
+        "acc-2026-07-002"
+      ],
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure",
+      "status": "Active",
+      "currentFocus": "Organization of the experimental DS&AI graduate-student pilot continued, and work progressed on a faculty document-management agent prototype. Neither update establishes readiness, service availability, validation, approval, deployment, adoption, or outcomes.",
+      "nextMilestone": "Continue bounded pilot organization and prototype work pending separate confirmation of any readiness, validation, approval, deployment, adoption, or outcomes.",
+      "dependencies": "Separate confirmation for pilot readiness conditions; separate validation, approval, deployment, adoption, and outcome evidence for the prototype",
+      "targetTiming": "Planning and prototype work",
+      "recentAccomplishmentIds": [
+        "acc-2026-08-003",
+        "acc-2026-07-001",
+        "acc-2026-07-007"
+      ],
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "research",
+      "name": "Research",
+      "status": "Active",
+      "currentFocus": "An exploratory Grants Office technical discussion considered a possible Grant Senior Colleague workflow. It is not implementation, data authorization, deployment, adoption, or an outcome.",
+      "nextMilestone": "Keep the possible workflow exploratory pending separate authorization and evidence.",
+      "dependencies": "Separate authorization for implementation or data use and separate evidence for deployment, adoption, or outcomes",
+      "targetTiming": "Exploratory discussion",
+      "recentAccomplishmentIds": [],
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "communications",
+      "name": "Communications",
+      "status": "Active",
+      "currentFocus": "An exploratory future-planning discussion occurred with an Academic Alliance colleague. It does not establish a partnership, event, resource commitment, or deliverable.",
+      "nextMilestone": "Keep future-planning discussion exploratory pending any separate, confirmed commitment.",
+      "dependencies": "Separate confirmation for any partnership, event, resource commitment, or deliverable",
+      "targetTiming": "Exploratory discussion",
+      "recentAccomplishmentIds": [
+        "acc-2026-08-004",
+        "acc-2026-08-002",
+        "acc-2026-07-003",
+        "acc-2026-07-006",
+        "acc-2026-07-009"
+      ],
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone-2026-07-001",
+      "title": "Summer AI Institute workshop completed",
+      "workstream": "Staff and Faculty Development",
+      "horizon": "Now",
+      "timing": "Delivered July 2026",
+      "status": "Completed",
+      "dependency": "Delivered as a CTE and CSE initiative; attendance, participant outcomes, and ongoing support are not established",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-002",
+      "title": "Await final senior approval of the AI Hub Advisory Board memo",
+      "workstream": "Governance",
+      "horizon": "Now",
+      "timing": "Pending final senior approval",
+      "status": "Waiting",
+      "dependency": "The memo was sent to the Provost; final senior approval, revision direction, or another authorized disposition is required before membership or invitations advance",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-003",
+      "title": "Confirm the Digital Consultation Lab workflow",
+      "workstream": "Infrastructure",
+      "horizon": "Now",
+      "timing": "Timing not specified",
+      "status": "Open",
+      "dependency": "Shared schedule, access, and facilitator workflow",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-004",
+      "title": "Guidance feedback cycle retired",
+      "workstream": "Communications",
+      "horizon": "Now",
+      "timing": "Retired July 31, 2026",
+      "status": "Completed",
+      "dependency": "Future guidance work will be handled by the responsible units",
+      "lastUpdated": "2026-07-31",
+      "reportId": "report-2026-07-008",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-005",
+      "title": "Deliver Summer AI Institute programming",
+      "workstream": "Staff and Faculty Development",
+      "horizon": "Now",
+      "timing": "Delivered July 2026",
+      "status": "Completed",
+      "dependency": "Delivered as a CTE and CSE initiative; no attendance, participant-outcome, or ongoing-support claim",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-006",
+      "title": "University Advancement hands-on AI build workshop delivered",
+      "workstream": "Staff and Faculty Development",
+      "horizon": "Now",
+      "timing": "Delivered August 5, 2026",
+      "status": "Completed",
+      "dependency": "Reported very successful; participant counts, tool-performance claims, participant outcomes, and continuing-service commitments require separate evidence or authorization",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-007",
+      "title": "Define descriptive monitoring and future evaluation requirements",
+      "workstream": "Research",
+      "horizon": "Next",
+      "timing": "Next research-design phase",
+      "status": "Active",
+      "dependency": "Available descriptive data and advance coordination for any prospective study",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-008",
+      "title": "Consider a future Advancement board presentation",
+      "workstream": "Staff and Faculty Development",
+      "horizon": "Later",
+      "timing": "No approved date",
+      "status": "Proposed",
+      "dependency": "Audience, timing, format, and outcome must be confirmed",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-009",
+      "title": "Scope a first cross-institution exchange",
+      "workstream": "Communications",
+      "horizon": "Next",
+      "timing": "Timing not specified",
+      "status": "Active",
+      "dependency": "Purpose, audience, format, timing, and owner must be confirmed",
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-010",
+      "title": "Verify the outcome of the scheduled cross-system AI-readiness discussion",
+      "workstream": "Governance",
+      "horizon": "Later",
+      "timing": "Scheduled July 22; current public-safe outcome not supplied",
+      "status": "Needs verification",
+      "dependency": "Do not infer attendance, partnership, endorsement, transfer, commitment, or follow-up without a separate confirmed update",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-011",
+      "title": "AI Hub website live",
+      "workstream": "Communications",
+      "horizon": "Now",
+      "timing": "Launched July 31, 2026",
+      "status": "Completed",
+      "dependency": "Any R&I-link issue remains a separate post-launch distribution follow-up and does not change the website's live status",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-012",
+      "title": "Scope ChatGPT EDU use-support guidance and assess educational-agent value",
+      "workstream": "Staff and Faculty Development",
+      "horizon": "Next",
+      "timing": "Next planning block",
+      "status": "Proposed",
+      "dependency": "Audience, authoritative sources, maintenance owner, and a clear value beyond maintainable written guidance",
+      "lastUpdated": "2026-07-31",
+      "reportId": "report-2026-07-007",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-013",
+      "title": "Confirm readiness for the experimental DS&AI consulting-center pilot",
+      "workstream": "Infrastructure",
+      "horizon": "Now",
+      "timing": "Before pilot work begins",
+      "status": "Proposed",
+      "dependency": "Student appointments, access and budget, authorized scope, validation, maintenance, and a separately authorized initial project",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-07-014",
+      "title": "Internal form-guidance pilot retired from GAABS scope",
+      "workstream": "Infrastructure",
+      "horizon": "Next",
+      "timing": "Retired July 31, 2026",
+      "status": "Completed",
+      "dependency": "Other responsible units will handle the internal form-guidance need",
+      "lastUpdated": "2026-07-31",
+      "reportId": "report-2026-07-008",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-001",
+      "title": "Develop the initial AI for Research Lunch and Learn",
+      "workstream": "Research",
+      "horizon": "Now",
+      "timing": "Initial concept development",
+      "status": "Active",
+      "dependency": "Draft purpose and agenda centered on faculty peer sharing and needs discovery; concept review before scheduling; no established program",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-002",
+      "title": "Assess catalytic research support",
+      "workstream": "Research",
+      "horizon": "Later",
+      "timing": "After needs evidence and authorized review",
+      "status": "Proposed",
+      "dependency": "Evidence of need, funding authority, available resources, eligibility, safeguards, and appropriate measurable outputs",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-003",
+      "title": "Assess a faculty research AI champion",
+      "workstream": "Research",
+      "horizon": "Later",
+      "timing": "After need and governance fit are established",
+      "status": "Proposed",
+      "dependency": "Defined need, authority, resources, scope, selection process, safeguards, and appropriate outcomes",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-004",
+      "title": "Develop a draft AI researcher map",
+      "workstream": "Research",
+      "horizon": "Next",
+      "timing": "Draft work",
+      "status": "Proposed",
+      "dependency": "Verified researcher information, appropriate scope, and no implication of appointment, endorsement, or an established program",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-005",
+      "title": "Plan the fall AI discussion and lecture series",
+      "workstream": "Staff and Faculty Development",
+      "horizon": "Next",
+      "timing": "Fall 2026 planning",
+      "status": "Active",
+      "dependency": "An open-to-all concept that complements CTE's faculty-focused programming; speakers, dates, and partnerships remain unconfirmed",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-006",
+      "title": "Address the post-launch R&I website-link follow-up",
+      "workstream": "Communications",
+      "horizon": "Next",
+      "timing": "Post-launch follow-up",
+      "status": "Open",
+      "dependency": "Separate distribution follow-up; the AI Hub website remains live",
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-007",
+      "title": "Verify GAABS SharePoint and semester booking experience",
+      "workstream": "Infrastructure",
+      "horizon": "Now",
+      "timing": "Before promotion",
+      "status": "Needs verification",
+      "dependency": "Confirm scope, routing, privacy, permissions, maintenance ownership, and user experience end to end",
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-008",
+      "title": "Refresh AI Hub SharePoint content",
+      "workstream": "Communications",
+      "horizon": "Now",
+      "timing": "Current-content pass",
+      "status": "Active",
+      "dependency": "Current-content review, appropriate ownership, and maintenance plan",
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-009",
+      "title": "Assess fit for UNC System AI literacy course",
+      "workstream": "Student AI Literacy",
+      "horizon": "Next",
+      "timing": "Assessment phase",
+      "status": "Active",
+      "dependency": "Audience, outcomes, evidence, accessibility, academic integrity, privacy, tool neutrality, governance, support, maintenance, and overlap with existing UNCW offerings; no adoption or curriculum decision is implied",
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-010",
+      "title": "Review revised ITS AI Standards draft",
+      "workstream": "Governance",
+      "horizon": "Next",
+      "timing": "When received",
+      "status": "Waiting",
+      "dependency": "Receipt of revised draft; review is not institutional approval or publication",
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-011",
+      "title": "Consider proposed three-pillar frame with AI Hub Advisory Board",
+      "workstream": "Governance",
+      "horizon": "Later",
+      "timing": "When the Advisory Board convenes",
+      "status": "Proposed",
+      "dependency": "Advisory Board convening and separate approval; not Board-approved strategy, curriculum decision, partnership, or service commitment",
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-08-012",
+      "title": "Confirm conditions for bounded Cowork pilot",
+      "workstream": "Infrastructure",
+      "horizon": "Next",
+      "timing": "Before any expansion",
+      "status": "Waiting",
+      "dependency": "Licensing, access, security, data handling, governance, support, communications, and permitted sharing conditions; pilot remains non-sensitive",
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-09-001",
+      "title": "Continue organization of experimental DS&AI graduate-student pilot",
+      "workstream": "Infrastructure",
+      "horizon": "Now",
+      "timing": "Current planning",
+      "status": "Active",
+      "dependency": "Placements, paid roles, tool access, budget, client work, and service launch are not established; each requires separate confirmation",
+      "lastUpdated": "2026-09-04",
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-09-002",
+      "title": "Plan STEM and AI learning-community workshop and supporting introduction",
+      "workstream": "Student AI Literacy",
+      "horizon": "Next",
+      "timing": "Planning",
+      "status": "Active",
+      "dependency": "No event is scheduled, and no partnership or program approval is established",
+      "lastUpdated": "2026-09-04",
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-09-003",
+      "title": "Advance faculty document-management agent prototype",
+      "workstream": "Infrastructure",
+      "horizon": "Next",
+      "timing": "Prototype work",
+      "status": "Active",
+      "dependency": "No validation, approval, deployment, adoption, or outcome is established",
+      "lastUpdated": "2026-09-04",
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-09-004",
+      "title": "Keep Academic Alliance future planning exploratory",
+      "workstream": "Communications",
+      "horizon": "Later",
+      "timing": "Exploratory discussion",
+      "status": "Proposed",
+      "dependency": "No partnership, event, resource commitment, or deliverable is established",
+      "lastUpdated": "2026-09-04",
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "milestone-2026-09-005",
+      "title": "Explore possible Grant Senior Colleague workflow",
+      "workstream": "Research",
+      "horizon": "Later",
+      "timing": "Exploratory technical discussion",
+      "status": "Proposed",
+      "dependency": "No implementation, data authorization, deployment, adoption, or outcome is established",
+      "lastUpdated": "2026-09-04",
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    }
+  ],
+  "risks": [
+    {
+      "id": "risk-2026-07-001",
+      "severity": "Critical",
+      "statement": "Transmission or review of the AI Hub Advisory Board memo could be mistaken for final approval, approved membership, or invitation authority.",
+      "workstream": "Governance",
+      "mitigation": "State that the memo was sent to the Provost and awaits final senior approval; keep membership and invitations unapproved and unauthorized.",
+      "attention": true,
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-002",
+      "severity": "High",
+      "statement": "AI advisory work could be misunderstood as replacing established shared governance.",
+      "workstream": "Governance",
+      "mitigation": "State advisory limits explicitly and recognize existing authorities.",
+      "attention": true,
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-001",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-003",
+      "severity": "High",
+      "statement": "A future workshop could face access, network, pacing, or login issues if participant-path testing and a fallback are not completed.",
+      "workstream": "Staff and Faculty Development",
+      "mitigation": "Apply the Summer AI Institute lesson: test the complete participant path and maintain a safe no-login fallback before delivery.",
+      "attention": false,
+      "lastUpdated": "2026-07-31",
+      "reportId": "report-2026-07-008",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-004",
+      "severity": "High",
+      "statement": "New commitments could exceed available capacity if they are added without identifying what they displace.",
+      "workstream": "Staff and Faculty Development",
+      "mitigation": "Avoid adding commitments without identifying what they displace and protect scheduled delivery work.",
+      "attention": false,
+      "lastUpdated": "2026-07-31",
+      "reportId": "report-2026-07-008",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-005",
+      "severity": "Medium",
+      "statement": "The shared consultation model could be described inaccurately as GAABS-owned or GAABS-only.",
+      "workstream": "Infrastructure",
+      "mitigation": "Use shared-space language that recognizes Library facilitation and the broader consultation role.",
+      "attention": false,
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-006",
+      "severity": "High",
+      "statement": "The completed EDU-license rollout could be misrepresented as an effectiveness study even though it was not systematic or study-coordinated.",
+      "workstream": "Research",
+      "mitigation": "Describe available evidence only as descriptive adoption monitoring and require advance coordination before any future prospective evaluation.",
+      "attention": true,
+      "lastUpdated": "2026-07-17",
+      "reportId": "report-2026-07-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-007",
+      "severity": "Medium",
+      "statement": "The stale July 21 scheduled cross-system item could be interpreted as confirmed attendance, partnership, endorsement, transfer, commitment, or follow-up.",
+      "workstream": "Governance",
+      "mitigation": "Mark the outcome as needing verification and make no new external relationship or endorsement claim without a separate confirmed update.",
+      "attention": false,
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-008",
+      "severity": "Medium",
+      "statement": "Post-launch website content could be mistaken for approved policy or broad service availability.",
+      "workstream": "Communications",
+      "mitigation": "Preserve review and ownership boundaries for future content and correct material issues promptly.",
+      "attention": false,
+      "lastUpdated": "2026-07-31",
+      "reportId": "report-2026-07-007",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-009",
+      "severity": "Medium",
+      "statement": "A possible educational agent could duplicate static guidance or imply endorsement before its purpose and maintenance model are clear.",
+      "workstream": "Staff and Faculty Development",
+      "mitigation": "Establish the article baseline, audience, source ownership, and agent-specific value before committing to build it.",
+      "attention": false,
+      "lastUpdated": "2026-07-31",
+      "reportId": "report-2026-07-007",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-010",
+      "severity": "High",
+      "statement": "The experimental DS&AI consulting-center pilot could begin without student appointments, access and budget, authorized scope, validation, maintenance, or a separately authorized initial project.",
+      "workstream": "Infrastructure",
+      "mitigation": "Confirm every condition before pilot work begins; do not describe the model as a production service.",
+      "attention": true,
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-011",
+      "severity": "High",
+      "statement": "Student turnover could leave an early prototype without a maintainer.",
+      "workstream": "Student AI Literacy",
+      "mitigation": "Use peer learning, document handoff responsibilities, and name continuity ownership before implementation.",
+      "attention": true,
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-07-012",
+      "severity": "Medium",
+      "statement": "The first pilot could become too technically ambitious for its client need or cohort readiness.",
+      "workstream": "Infrastructure",
+      "mitigation": "Favor maintainable solutions and confirm authorized scope, validation criteria, maintenance ownership, and the initial project before implementation.",
+      "attention": false,
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-08-001",
+      "severity": "High",
+      "statement": "Delivered programming or reported success could be interpreted as attendance, participant-outcome evidence, tool performance, effectiveness, or a continuing support commitment.",
+      "workstream": "Staff and Faculty Development",
+      "mitigation": "Report delivery separately from attendance, participant outcomes, tool performance, effectiveness, and future support commitments.",
+      "attention": true,
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-08-002",
+      "severity": "Medium",
+      "statement": "Draft or exploratory research activity could be interpreted as an established program, funded support, or an approved role.",
+      "workstream": "Research",
+      "mitigation": "Keep the Lunch and Learn and researcher map as draft work and catalytic support and the faculty-champion idea exploratory until their approval conditions are met.",
+      "attention": true,
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-08-003",
+      "severity": "Medium",
+      "statement": "AI Currents' reported strong start could be converted into unsupported membership, engagement, outcome, moderation, or support claims.",
+      "workstream": "Communications",
+      "mitigation": "Keep the statement qualitative and explicitly reported; add quantitative, outcome, moderation, or support claims only with separate evidence and authorization.",
+      "attention": true,
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-08-004",
+      "severity": "Medium",
+      "statement": "Fall series planning could be interpreted as confirmed programming, speakers, dates, or partnerships.",
+      "workstream": "Staff and Faculty Development",
+      "mitigation": "Describe the series as active planning that complements CTE's faculty-focused programming and keep speakers, dates, and partnerships unconfirmed.",
+      "attention": true,
+      "lastUpdated": "2026-08-11",
+      "reportId": "report-2026-08-002",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-08-005",
+      "severity": "High",
+      "statement": "GAABS SharePoint and semester booking surfaces could be promoted before end-to-end verification.",
+      "workstream": "Infrastructure",
+      "mitigation": "Confirm scope, routing, privacy, permissions, maintenance ownership, and user experience before promotion.",
+      "attention": true,
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-08-006",
+      "severity": "High",
+      "statement": "The proposed three-pillar frame could be represented as Board-approved strategy or a committed service model.",
+      "workstream": "Governance",
+      "mitigation": "Retain proposed status until Advisory Board consideration and any separate approvals occur.",
+      "attention": true,
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-08-007",
+      "severity": "High",
+      "statement": "Cowork exploration could be treated as ready for protected data or institutional deployment.",
+      "workstream": "Infrastructure",
+      "mitigation": "Retain the non-sensitive pilot boundary until all data-handling, support, and sharing conditions are confirmed.",
+      "attention": true,
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-08-008",
+      "severity": "Medium",
+      "statement": "The UNC System AI literacy course assessment could be represented as UNCW adoption or a curriculum decision.",
+      "workstream": "Student AI Literacy",
+      "mitigation": "Keep it at fit-review status until any separate academic, governance, and ownership decisions are made.",
+      "attention": true,
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-08-009",
+      "severity": "Medium",
+      "statement": "The Towson exchange or faculty-support office hours could be represented as an ongoing partnership or service commitment.",
+      "workstream": "Communications",
+      "mitigation": "Report only the confirmed bounded activities and require separate evidence or authorization for ongoing commitments or outcomes.",
+      "attention": true,
+      "lastUpdated": "2026-08-21",
+      "reportId": "report-2026-08-003",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-09-001",
+      "severity": "High",
+      "statement": "Pilot organization could be mistaken for placements, paid roles, tool access, budget, client work, or a launched service.",
+      "workstream": "Infrastructure",
+      "mitigation": "Retain the experimental planning boundary and require separate confirmation for each condition.",
+      "attention": true,
+      "lastUpdated": "2026-09-04",
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-09-002",
+      "severity": "Medium",
+      "statement": "Workshop planning or a supporting introduction could be mistaken for a scheduled event, partnership, or approved program.",
+      "workstream": "Student AI Literacy",
+      "mitigation": "Retain planning status until separately confirmed.",
+      "attention": true,
+      "lastUpdated": "2026-09-04",
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-09-003",
+      "severity": "High",
+      "statement": "Faculty document-management agent prototype work could be mistaken for validation, approval, deployment, adoption, or outcomes.",
+      "workstream": "Infrastructure",
+      "mitigation": "Describe it only as prototype work pending separate evidence and authorization.",
+      "attention": true,
+      "lastUpdated": "2026-09-04",
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    },
+    {
+      "id": "risk-2026-09-004",
+      "severity": "Medium",
+      "statement": "Exploratory Academic Alliance or Grants Office discussions could be interpreted as commitments.",
+      "workstream": "Research",
+      "mitigation": "State explicitly that no partnership, event, resource commitment, deliverable, implementation, data authorization, deployment, adoption, or outcome is established.",
+      "attention": true,
+      "lastUpdated": "2026-09-04",
+      "reportId": "report-2026-09-004",
+      "sourceStatus": "Project-file-only"
+    }
+  ],
+  "decisions": [],
+  "reports": [
+    {
+      "id": "report-2026-07-001",
+      "period": "Spring–Summer 2026 through July 17",
+      "date": "2026-07-17",
+      "sourceBasis": "Project-file-only",
+      "summary": "Foundation-building and governed execution across governance, consultation infrastructure, capability building, responsible guidance, and campus engagement.",
+      "publicReportPath": "content/reports/2026-07-17-public-progress-report.md",
+      "changes": [
+        "Added four public-safe accomplishment records",
+        "Established current status for all six workstreams",
+        "Added eight Now, Next, and Later milestones",
+        "Added three public-facing material risks; internal deliberations and support requests were excluded",
+        "Preserved preparation-versus-delivery and proposed-versus-approved boundaries"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-07-17",
+        "scope": "Public-safe dashboard summary; named activity-ledger detail excluded"
+      }
+    },
+    {
+      "id": "report-2026-07-002",
+      "period": "Spring–Summer 2026 through July 17 — public update",
+      "date": "2026-07-17",
+      "sourceBasis": "Project-file-only",
+      "summary": "Additional approved public reporting on capability building, responsible engagement materials, evaluation planning, operating capacity, and delivery risk.",
+      "publicReportPath": "content/reports/2026-07-17-public-progress-update-1.md",
+      "changes": [
+        "Added two public-safe accomplishment records from the latest supplied update",
+        "Added evaluation design to current priorities",
+        "Updated staff and faculty development, communications, and research source references",
+        "Added two public-facing risks while excluding named activity-ledger detail",
+        "Expanded the approved public record of responsible engagement materials, evaluation planning, and operating capacity"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-07-17",
+        "scope": "Public-safe dashboard update; named activity-ledger detail, private working discussions, and draft approval information excluded"
+      }
+    },
+    {
+      "id": "report-2026-07-003",
+      "period": "Spring–Summer 2026 through July 17 — full public progress report",
+      "date": "2026-07-17",
+      "sourceBasis": "Project-file-only",
+      "summary": "Public progress reporting on governance, capability building, shared infrastructure, team monitoring, evaluation limits, and bounded external exchange opportunities.",
+      "publicReportPath": "content/reports/2026-07-17-public-ai-hub-gaabs-dashboard-progress-report.md",
+      "changes": [
+        "Added the team project-monitoring dashboard launch as a completed accomplishment",
+        "Corrected the research priority and milestone so the completed EDU-license rollout is not presented as an effectiveness study",
+        "Added a public research risk describing the evaluation limitation and mitigation",
+        "Added a bounded cross-institution exchange opportunity without implying a formal partnership",
+        "Preserved every omitted current record without changing its status"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-07-17",
+        "scope": "Public-safe dashboard update covering the monitoring-dashboard launch, corrected evaluation limits, and a bounded cross-institution exchange opportunity; no formal partnership or effectiveness claim implied"
+      }
+    },
+    {
+      "id": "report-2026-07-004",
+      "period": "July 18–21, 2026 — public update",
+      "date": "2026-07-21",
+      "sourceBasis": "Project-file-only",
+      "summary": "Public update on Summer AI Institute readiness, the scheduled cross-system AI-readiness discussion, governance continuity, and bounded late-July capacity.",
+      "publicReportPath": "content/reports/2026-07-21-public-dashboard-update.md",
+      "changes": [
+        "Updated the dashboard as-of date and executive summary through July 21",
+        "Added a scheduled July 22 cross-system AI-readiness milestone without implying a commitment or outcome",
+        "Reordered current priorities around Institute readiness and the scheduled coordination discussion",
+        "Updated the existing late-July capacity risk without exposing personnel-adjacent review details",
+        "Added a public risk against interpreting cross-system coordination as an authorized UNCW commitment",
+        "Preserved every omitted accomplishment, milestone, risk, decision, and workstream record without inferring a status change"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-07-21",
+        "scope": "Public-safe update covering delivery readiness, scheduled cross-system coordination, and capacity boundaries; personnel-adjacent review details and unconfirmed meeting outcomes excluded"
+      }
+    },
+    {
+      "id": "report-2026-07-005",
+      "period": "July 22-27, 2026 — public update",
+      "date": "2026-07-27",
+      "sourceBasis": "Project-file-only",
+      "summary": "Public update on the scheduled AI Hub website launch and scoped ChatGPT EDU use-support planning.",
+      "publicReportPath": "content/reports/2026-07-27-public-dashboard-update.md",
+      "changes": [
+        "Updated the dashboard as-of date and executive summary through July 27",
+        "Added a scheduled public website-launch verification milestone without claiming the launch occurred",
+        "Added a proposed ChatGPT EDU use-support guidance and educational-agent scoping milestone without committing to build an agent",
+        "Updated staff and faculty development and communications workstream focus",
+        "Added public risks for launch-boundary and agent-scope interpretation",
+        "Preserved the distinction between practical license value and unmeasured ROI or effectiveness"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-07-27",
+        "scope": "Public-safe update covering scheduled website launch verification and scoped adoption support; no launch-completion, agent-build, ROI, or effectiveness claim implied"
+      }
+    },
+    {
+      "id": "report-2026-07-006",
+      "period": "July 27, 2026 — public student consulting pilot update",
+      "date": "2026-07-27",
+      "sourceBasis": "Project-file-only",
+      "summary": "Public update on a planned, experimental graduate-student consulting pilot with access, funding, scope, validation, and continuity prerequisites.",
+      "publicReportPath": "content/reports/2026-07-27-public-student-consulting-pilot-update.md",
+      "changes": [
+        "Added a planned graduate-student consulting pilot without claiming a production service",
+        "Added readiness and initial-scope milestones subject to access, funding, controls, validation, and continuity conditions",
+        "Updated infrastructure and student AI literacy workstreams for supervised practical-build learning",
+        "Added public risks for readiness, turnover, and scope mismatch",
+        "Excluded names, appointment details, budget specifics, internal access discussions, and the specific internal request"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-07-27",
+        "scope": "Public-safe student consulting-pilot update; no production-service, deployment, validated-accuracy, or implementation-readiness claim implied"
+      }
+    },
+    {
+      "id": "report-2026-07-007",
+      "period": "July 28–31, 2026 — public update",
+      "date": "2026-07-31",
+      "sourceBasis": "Project-file-only",
+      "summary": "No new verified public outcomes; current priorities and boundaries were refreshed for readiness, practical adoption support, pilot planning, governance, and public information.",
+      "publicReportPath": "content/reports/2026-07-31-public-dashboard-update.md",
+      "changes": [
+        "Added no accomplishment, approval, service-availability, funding, or website-verification claim",
+        "Refreshed five current priorities from the supplied project-file-only update",
+        "Updated six workstream summaries and three planning and verification milestones without inferring completion",
+        "Refreshed existing public risks for website scope, educational-agent value, pilot readiness, continuity, and feasible scope",
+        "Preserved existing outcomes, status boundaries, and the absence of public decision requests"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-07-31",
+        "scope": "Public-safe project-file-only update; no new verified outcomes, approvals, service availability, funding commitments, or private operational detail"
+      }
+    },
+    {
+      "id": "report-2026-07-008",
+      "period": "July 28–31, 2026 — public completion correction",
+      "date": "2026-07-31",
+      "sourceBasis": "Project-file-only",
+      "summary": "Public correction recording successful Summer AI Institute delivery, the AI Hub website launch, the advisory-framework memo's pending final senior approval, and retired internal work.",
+      "publicReportPath": "content/reports/2026-07-31-public-completion-correction.md",
+      "changes": [
+        "Recorded successful delivery of Summer AI Institute programming",
+        "Recorded the AI Hub website launch",
+        "Updated the advisory-framework memo milestone to awaiting final senior approval without implying invitation authority or policy approval",
+        "Retired the guidance-feedback cycle and internal form-guidance pilot from GAABS scope",
+        "Preserved project-file-only, review-versus-approval, and planned-versus-production boundaries"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-07-31",
+        "scope": "Public-safe completion correction; no private operational, personnel, funding, tool-access, or unapproved-policy detail included"
+      }
+    },
+    {
+      "id": "report-2026-07-009",
+      "period": "July 31, 2026 — public language correction",
+      "date": "2026-07-31",
+      "sourceBasis": "Project-file-only",
+      "summary": "Public wording corrected to preserve approval and invitation boundaries without exposing internal approval-process details.",
+      "publicReportPath": "content/reports/2026-07-31-public-language-correction.md",
+      "changes": [
+        "Replaced internal approval-process wording with final senior approval",
+        "Preserved the distinction between review, approval, and invitation authorization",
+        "Preserved all other approved public records"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-07-31",
+        "scope": "Public safety language correction; no new outcome or authority claim"
+      }
+    },
+    {
+      "id": "report-2026-08-001",
+      "period": "August 1–5, 2026 — public update",
+      "date": "2026-08-05",
+      "sourceBasis": "Project-file-only",
+      "summary": "Public update recording the August 5 University Advancement workshop delivery and bounded governance, research-capacity, and experimental student-pilot status.",
+      "publicReportPath": "content/reports/2026-08-05-public-dashboard-update.md",
+      "changes": [
+        "Recorded delivery of the August 5 University Advancement hands-on AI build workshop while separating reported success from participant outcomes and continuing service",
+        "Preserved the already recorded AI Hub website launch and successful Summer AI Institute delivery",
+        "Kept the AI Hub Advisory Board memo awaiting final senior approval with membership and invitations unapproved",
+        "Added an initial faculty-centered AI for Research Lunch and Learn as in-development peer sharing and needs discovery, not a standing program",
+        "Added catalytic research support and a faculty research AI champion as exploratory concepts",
+        "Refreshed the experimental DS&AI student consulting pilot prerequisites around access, funding, project ownership, validation, and continuity controls",
+        "Preserved the distinction between descriptive monitoring and effectiveness evidence and left omitted records unchanged"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-08-05",
+        "scope": "Public-safe project-file-only update; no participant-outcome, continuing-service, membership, invitation, funding, role-approval, production-service, or effectiveness claim"
+      }
+    },
+    {
+      "id": "report-2026-08-002",
+      "period": "August 6–11, 2026 — public update",
+      "date": "2026-08-11",
+      "sourceBasis": "Project-file-only",
+      "summary": "Public update on AI Currents, fall AI series planning, current governance and research boundaries, delivered programming attribution, and the experimental DS&AI consulting-center pilot.",
+      "publicReportPath": "content/reports/2026-08-11-public-dashboard-update.md",
+      "changes": [
+        "Updated the Dashboard as-of date and superseded the July 21 scheduled cross-system item as current status by marking its outcome as needing verification",
+        "Kept the AI Hub website live while separating the R&I-link issue as a post-launch distribution follow-up",
+        "Attributed successful Summer AI Institute delivery to a CTE and CSE initiative without attendance, outcome, or ongoing-support claims",
+        "Retained the August 5 Advancement workshop as delivered and reported very successful without participant-count, tool-performance, outcome, or continuing-service claims",
+        "Added AI Currents as an established Viva Engage discussion community with reported qualitative status and no unsupported metrics, outcomes, moderation, or support claims",
+        "Recorded that the Advisory Board memo was sent to the Provost and awaits final senior approval while membership and invitations remain unapproved",
+        "Added active planning for an open-to-all fall AI discussion and lecture series while keeping speakers, dates, and partnerships unconfirmed",
+        "Kept research activities draft or exploratory and refreshed the experimental DS&AI pilot conditions",
+        "Excluded unconfirmed tool enablement and new external transfer, partnership, or endorsement claims"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-08-11",
+        "scope": "Public-safe project-file-only update; no live verification, attendance, participant-count, engagement-metric, outcome, tool-performance, moderation, continuing-support, membership, invitation, speaker, date, partnership, funding, role-approval, production-service, external-transfer, or endorsement claim"
+      }
+    },
+    {
+      "id": "report-2026-08-003",
+      "period": "August 12–21, 2026 — public update",
+      "date": "2026-08-21",
+      "sourceBasis": "Project-file-only",
+      "summary": "Public update on foundation-building across institutional capability, student learning, and community engagement, with explicit verification, approval, and non-sensitive-pilot boundaries.",
+      "publicReportPath": "content/reports/2026-08-21-public-dashboard-update.md",
+      "changes": [
+        "Updated the Dashboard as-of date and priorities through August 21",
+        "Recorded GAABS SharePoint and semester booking surfaces as created while retaining end-to-end verification requirements",
+        "Recorded a bounded Towson tool-sharing exchange without implying partnership, transfer agreement, endorsement, or continuing commitment",
+        "Recorded faculty-support office hours with John Holsten without claiming learner outcomes, course changes, standing service, or continuing support",
+        "Added the proposed three-pillar frame for potential Advisory Board discussion without representing it as Board-approved strategy, curriculum, partnership, or service commitment",
+        "Added fit assessment for the UNC System AI literacy course and waiting status for the revised ITS AI Standards draft",
+        "Recorded Cowork as a bounded non-sensitive pilot pending data-handling, support, and sharing conditions",
+        "Preserved project-file-only and live-verification boundaries; omitted records remain unchanged"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-08-21",
+        "scope": "Public-safe project-file-only update; no live verification, attendance, participant outcome, effectiveness, membership, engagement metric, moderation, continuing support, course adoption, curriculum decision, Board-approved strategy, partnership, transfer agreement, service commitment, protected-data clearance, or institutional deployment claim"
+      }
+    },
+    {
+      "id": "report-2026-09-004",
+      "period": "August 22–September 4, 2026 — public corrective update",
+      "date": "2026-09-04",
+      "sourceBasis": "Project-file-only",
+      "summary": "Public corrective update on bounded experimental-pilot organization, workshop planning, prototype work, and exploratory discussions, with explicit non-commitment and non-deployment boundaries.",
+      "publicReportPath": "content/reports/2026-09-04-public-corrective-update.md",
+      "changes": [
+        "Updated the Dashboard as-of date through September 4",
+        "Recorded continued organization of the experimental DS&AI graduate-student pilot without placements, paid roles, tool access, budget, client work, or service launch",
+        "Added STEM and AI learning-community workshop planning and a planned supporting introduction without a scheduled event, partnership, or program approval",
+        "Added bounded faculty document-management agent prototype progress without validation, approval, deployment, adoption, or outcomes",
+        "Added exploratory Academic Alliance future-planning and Grants Office technical discussions without partnership, event, resource commitment, deliverable, implementation, data authorization, deployment, adoption, or outcome claims",
+        "Preserved project-file-only and live-verification boundaries; omitted records remain unchanged"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-09-04",
+        "scope": "Public-safe corrective project-file-only update; no placement, paid-role, tool-access, budget, client-work, service-launch, scheduled-event, partnership, program-approval, validation, approval, deployment, adoption, outcome, data-authorization, resource-commitment, or deliverable claim"
+      }
+    },
+    {
+      "id": "report-2026-09-005",
+      "period": "September 5, 2026 — public update",
+      "date": "2026-09-05",
+      "sourceBasis": "Project-file-only",
+      "summary": "Project-file-only update recording a user-reported educational-ChatGPT account guide, with explicit distribution, adoption, endorsement, use, and outcome boundaries.",
+      "publicReportPath": "content/reports/2026-09-05-public-dashboard-update.md",
+      "changes": [
+        "Updated the Dashboard as-of date through September 5",
+        "Recorded a user-reported educational-ChatGPT account guide without distribution, adoption, endorsement, use, or outcome claims",
+        "Preserved all existing public records and project-file-only boundaries"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-09-05",
+        "scope": "Public-safe project-file-only update; no distribution, adoption, endorsement, use, outcome, effectiveness, ongoing-support, or live-verification claim"
+      }
+    },
+    {
+      "id": "report-2026-09-21-5d10e4b6",
+      "period": "Cumulative through 2026-09-21 — select reporting period — public update",
+      "date": "2026-09-21",
+      "sourceBasis": "Project-file-only",
+      "summary": "Reviewed public report submitted from AI Hub Operations. No structured dashboard records were changed automatically.",
+      "publicReportPath": "content/reports/2026-09-21-public-update-726eec4c-2b83-4389-821e-271399e7d606.md",
+      "changes": [
+        "Added the reviewed public report to Dashboard history",
+        "Preserved existing structured records; no claims were inferred from report text"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-09-21",
+        "scope": "Explicitly reviewed public report; report history only unless separate structured changes are approved"
+      }
+    }
+  ]
+}
