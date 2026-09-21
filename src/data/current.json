@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
-  "snapshotId": "snapshot-2026-09-05-014",
+  "snapshotId": "snapshot-2026-09-21-5d10e4b6",
   "metadata": {
     "title": "AI@UNCW Project Dashboard",
-    "asOf": "2026-09-05",
-    "reportingPeriod": "September 5, 2026",
+    "asOf": "2026-09-21",
+    "reportingPeriod": "Cumulative through 2026-09-21 — select reporting period",
     "sourceBasis": "Project-file-only",
-    "lastReviewed": "2026-09-05",
+    "lastReviewed": "2026-09-21",
     "identity": "The AI Hub Orchestrates and GAABS Supports AI Builders.",
     "subidentity": "GAABS is the advanced tool-building arm within The AI Hub.",
     "publicNotice": "This public dashboard contains approved summary information only. Project-file-only information is not live-verified."
@@ -1231,6 +1231,23 @@
         "approvedBy": "Julian Keith",
         "approvedOn": "2026-09-05",
         "scope": "Public-safe project-file-only update; no distribution, adoption, endorsement, use, outcome, effectiveness, ongoing-support, or live-verification claim"
+      }
+    },
+    {
+      "id": "report-2026-09-21-5d10e4b6",
+      "period": "Cumulative through 2026-09-21 — select reporting period — public update",
+      "date": "2026-09-21",
+      "sourceBasis": "Project-file-only",
+      "summary": "Reviewed public report submitted from AI Hub Operations. No structured dashboard records were changed automatically.",
+      "publicReportPath": "content/reports/2026-09-21-public-update-726eec4c-2b83-4389-821e-271399e7d606.md",
+      "changes": [
+        "Added the reviewed public report to Dashboard history",
+        "Preserved existing structured records; no claims were inferred from report text"
+      ],
+      "approval": {
+        "approvedBy": "Julian Keith",
+        "approvedOn": "2026-09-21",
+        "scope": "Explicitly reviewed public report; report history only unless separate structured changes are approved"
       }
     }
   ]
