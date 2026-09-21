@@ -70,7 +70,7 @@ Julian reviews every proposed change. For each ambiguity, he must choose one of 
 - Exclude from this update.
 - Keep in staging for later review.
 
-The proposal cannot be approved while unresolved sensitive-content findings remain. Approval creates a local reviewer attestation tied to the proposal ID, source hash, and base snapshot ID. Approval does not itself update the dashboard.
+The proposal cannot be approved while unresolved sensitive-content findings remain. The review identifies the exact line, matched phrase, and a plain-language next step; generic terms such as “token costs” are not treated as credentials. Approval rechecks the unchanged report using the current public-safety rules, then creates a local reviewer attestation tied to the proposal ID, source hash, and base snapshot ID. Approval does not itself update the dashboard.
 
 Proposed command:
 

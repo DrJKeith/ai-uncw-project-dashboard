@@ -9,6 +9,7 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "vitest run",
     "validate": "node scripts/validate.mjs",
+    "test:workflow": "node --test scripts/*.node-test.mjs",
     "import-report": "node scripts/import-report.mjs",
     "review-import": "node scripts/review-import.mjs",
     "approve-import": "node scripts/approve-import.mjs",

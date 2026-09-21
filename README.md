@@ -34,6 +34,8 @@ The built site is written to `dist/`.
 
 ## Manual progress-report update
 
+When a reviewed public draft is prepared in AI Hub Operations, use its **Approve & apply public update** action. It transfers the exact reviewed report into this repository, records the approval, creates the snapshot, and runs the local checks without downloading a file or using the command line. The live GitHub Pages deployment remains a separate authorized deployment step.
+
 Importing and applying are separate explicit actions. Nothing runs automatically when a report is added.
 
 1. Create a public-safe Markdown report in `content/reports/` using these metadata lines:
@@ -51,7 +53,7 @@ Importing and applying are separate explicit actions. Nothing runs automatically
    npm run review-import -- <proposal-id>
    ```
 
-3. Resolve every sensitive-content finding. Prepare the complete reviewed snapshot as `staging/imports/<proposal-id>.approved-data.json`.
+3. Review any public-safety alert. The review names the exact line, matched phrase, and recommended next step, so you do not need to search the document. Prepare the complete reviewed snapshot as `staging/imports/<proposal-id>.approved-data.json`.
 4. Julian explicitly approves, then applies, that exact reviewed snapshot:
 
    ```bash
