@@ -57,12 +57,19 @@ export function parseReport(markdown) {
 
 export function scanSensitive(markdown) {
   const checks = [
-    ['confidential', /\bconfidential\b/i],
-    ['personnel', /\b(personnel|performance review|disciplinary)\b/i],
-    ['student record', /\b(student id|student record|ferpa)\b/i],
-    ['private contact data', /\b\d{3}[-.)\s]\d{3}[-.\s]\d{4}\b/],
-    ['credential', /\b(api[_ -]?key|password|secret|token)\b/i],
-    ['internal deliberation', /\b(internal deliberation|not for distribution|closed session)\b/i],
+    ['confidential', /\bconfidential\b/i, 'Remove the confidential material or prepare a public-safe summary.'],
+    ['personnel', /\b(personnel|performance review|disciplinary)\b/i, 'Remove personnel or performance details from the public report.'],
+    ['student record', /\b(student id|student record|ferpa)\b/i, 'Remove student-record information from the public report.'],
+    ['private contact data', /\b\d{3}[-.)\s]\d{3}[-.\s]\d{4}\b/, 'Remove the phone number or replace it with a public contact channel.'],
+    ['credential', /\b(api[_ -]?key|password|secret|(?:access|auth|bearer|refresh)\s+token)\b/i, 'Remove the credential. A discussion of model-use or access costs is not a credential.'],
+    ['internal deliberation', /\b(internal deliberation|not for distribution|closed session)\b/i, 'Remove internal deliberation details or prepare a public-safe summary.'],
   ]
-  return checks.filter(([, pattern]) => pattern.test(markdown)).map(([kind]) => ({ kind, resolution: null }))
+  return checks.flatMap(([kind, pattern, guidance]) => {
+    const match = markdown.match(pattern)
+    if (!match || match.index === undefined) return []
+
+    const line = markdown.slice(0, match.index).split('\n').length
+    const sourceLine = markdown.split('\n')[line - 1].trim()
+    return [{ kind, line, matchedText: match[0], excerpt: sourceLine, guidance, resolution: null }]
+  })
 }
